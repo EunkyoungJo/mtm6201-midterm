@@ -172,3 +172,17 @@ h2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
+
+/* Add image grid layout for alignment in the intro section */
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
