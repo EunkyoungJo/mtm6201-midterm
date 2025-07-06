@@ -103,6 +103,7 @@ header {
     font-family: 'Lato', sans-serif;
     font-size: 3.875rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .hero-content p {
@@ -111,4 +112,47 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Button base styles and theme variations */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    font-family: 'Karla', sans-serif;
+}
+
+.primary-btn {
+    background-color: #fff;
+    color: #000000;
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+    background-color: #966f2c;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.secondary-btn:hover,
+.secondary-btn:focus {
+    background-color: #966f2c;
+    color: #fff;
+}
+
+.tertiary-btn {
+    background-color: #000000;
+    color: #fff;
+}
+
+.tertiary-btn:hover,
+.tertiary-btn:focus {
+    background-color: #966f2c;
+    color: #fff;
 }
