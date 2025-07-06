@@ -188,6 +188,11 @@ h2 {
 }
 
 /* Align icons in the visit section */
+.why-visit p.section-tag,
+.why-visit h2 {
+    text-align: center;
+}
+
 .icon-grid {
     display: grid;
     grid-template-columns: 1fr;
