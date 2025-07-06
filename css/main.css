@@ -98,7 +98,7 @@ header {
     animation: fadeInUp 1s ease-in-out both;
 }
 
-.hero-content h1 {
+.hero-title {
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -106,7 +106,6 @@ header {
 }
 
 .hero-content p {
-    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -167,10 +166,28 @@ section {
     margin-bottom: 0.5rem;
 }
 
-h2 {
+h1, h2, h3 {
     font-family: 'Lato', sans-serif;
-    font-size: 1.75rem;
+    text-transform: uppercase;
     margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.375rem;  
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 /* Add image grid layout for alignment in the intro section */
@@ -216,3 +233,4 @@ h2 {
     font-size: 1rem;
     color: #000;
 }
+
