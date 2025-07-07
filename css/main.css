@@ -252,3 +252,20 @@ p {
 .cta-block h2 {
     text-align: center;
 }
+
+/* About section with image and text */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-text .section-tag,
+.about-text h2 {
+    text-align: left;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+}
+
