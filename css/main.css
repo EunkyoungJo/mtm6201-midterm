@@ -269,3 +269,41 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Testimonial section with dark background */
+.testimonials {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 1.5rem;
+    text-align: left;
+}
+
+.testimonials .section-tag,
+.testimonials h2 {
+    text-align: left;
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+} 
+
+.testimonials figure {
+    margin: 0;
+}
+
+.testimonials img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.testimonials figcaption {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials strong {
+    color: #d69e3d;
+}
