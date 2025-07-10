@@ -312,18 +312,31 @@ p {
     margin-top: 2rem;
 } 
 
-.testimonials figure {
-    margin: 0;
+.testimonials-text {
+    max-width: 350px;
 }
 
-.testimonials img {
+.testimonials-grid figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-grid img {
+    display: block;
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
 }
 
-.testimonials figcaption {
+.testimonials-grid figcaption {
+    position: absolute;
+
+    bottom: 0;
+    color: #fff;
+    padding: 1rem;
     font-size: 1rem;
+    width: 90%;
+    box-sizing: border-box;
     margin-bottom: 1rem;
 }
 
@@ -536,7 +549,7 @@ footer {
     }
 
     .about {
-        padding: 140px;
+        padding: 200px;
         gap: 2rem;
     }
 
@@ -555,7 +568,6 @@ footer {
 
     .about-text {
         flex: 1;
-        padding: 0 160px 0 0;
     }
 
     .cta-container {
