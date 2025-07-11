@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
     border-bottom: 1px solid #fff;
     flex-wrap: wrap;
     position: relative;
@@ -296,7 +296,10 @@ p {
 .testimonials {
     background-color: #000;
     color: #fff;
-    padding: 3rem 1.5rem;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px; 
     text-align: left;
 }
 
@@ -341,6 +344,7 @@ p {
 }
 
 .testimonials strong {
+    font-size: 2rem;
     color: #d69e3d;
 }
 
@@ -478,6 +482,13 @@ footer {
         padding-left: 2rem;
     }
 
+    .testimonials {
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;        
+    }
+
     .testimonials-text {
         max-width: 500px;
     }
@@ -493,7 +504,6 @@ footer {
         justify-self: center;
         max-width: 500px;
     }
-
 
     .testimonials figure {
         max-width: 100%;
@@ -610,7 +620,10 @@ footer {
     }
 
     .testimonials {
-        padding: 140px;
+        padding-top: 140px;
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-bottom: 10px;        
     }
 
     .testimonials-grid {
@@ -622,6 +635,10 @@ footer {
         grid-column: auto;
         justify-self: auto;
         max-width: 100%;
+    }
+    /* Footer with copyright */
+    .footer {
+        padding: 0 1rem 10rem;
     }
 }
 
